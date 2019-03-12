@@ -5,11 +5,7 @@ import {storeProducts} from '../data';
 import {ProductConsumer} from '../context';
 
 export default class ProductLists extends Component {
-    state = {
-        products: []
-    }
-    
-    
+   
     render() {
         //console.log(storeProducts);
         return (
